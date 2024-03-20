@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header section*/
+.header{
+   /* max-width: 1140px;*/
+    margin: auto; 
+     
+}
+.header-section{
+   background-image: url(images/donation0.jpg);
+    /*background-repeat: no-repeat;*/
+    height: 100%;
+    width: auto;
+    padding:  200px;
+    position: relative;
+    z-index: 1; 
+    margin: 0 200px;  
+}
+.header-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+
+}
+.header-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    text-align: center;
+  
+}
+.header-description{
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.btn-primary button{
+   padding: 5px 15px;
+   border: 0;
+   background-color: rgb(255, 99, 71);
+   margin-left: 150px;
+   display: block;
+   height: 40px;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: white; 
+  margin: auto;
+}
+.header-section a{
+    text-decoration: none;
+}
+/*donat today*/
+main{
+   
+    margin: auto;
+    margin: 50px;
+    margin: 0 200px;
+}
+.donat-tk{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.donat{
+    text-align: center;
+    margin-left: 0 200px;
+}
+.donat-title{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.donat-description{
+    color: #757575;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.donat-amount{
+    background-color: rgb(250, 250, 250);
+    padding: 20px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.donat-sub-amount{
+    padding: 20px 10px;
+    margin-top: 20px;
+    border: 2px solid rgb(255, 99, 71);
+    background-color: rgba(255, 110, 69, 0.06) ;
+    border-radius: 5px;
+}
+.donat-sec-title{
+    color: rgb(120, 120, 120);
+}
+.other-amount{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(170, 170, 170);
+}
+hr{
+    color: rgb(170, 170, 170);
+     margin: 20px 600px;
+}
+.btn-primary-donat button{
+  height: 40px;
+  padding: 0 5px;
+  border: 0;
+  color: white;
+  background-color: rgb(255, 110, 101);
+  border-radius: 5px;
+}
+/*our donat*/
+.our-donat{
+margin: 50px;
+     
+}
+.sec-our-donat{
+  text-align: center;
+}
+.donat-plan{
+    display: flex;
+    gap: 30px;
+  /*  margin: 50px 500px;*/
+    justify-content: center; 
+}
+.our-donat-plan{
+   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06); 
+   height: auto;
+  width: 200px;
+   padding: 20px;
+  background-color: rgba(255, 99, 71, 0.06);
+}
+/*donation*/
+.donation{
+  /*  margin: 0 300px;*/
+    margin-bottom: 50px;
+}
+.sec-donation{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.donation-img img{
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+.donation-info{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+/*update section*/
+.update-sec{
+    text-align: center;
+}
+.email-sec{
+    margin-top: 20px;
+    width: 400px;
+  margin-left: 500px;
+  background-color: rgba(144, 255, 212, 0.4);
+  padding: 40px 30px;
+  
+}
+.email-sec input{
+   padding: 7px;
+   border: 0;
+}
+.email-sec span{
+    padding: 5px;
+    background-color: rgb(255, 110, 101);
+    border-radius: 5px;
+}
+/*footer*/
+.footer-sec{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(114, 193, 220);
+    padding: 30px;
+    margin: 0 200px;
+    margin-top: 50px;
+}
